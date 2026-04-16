@@ -42,12 +42,12 @@ export default function Page() {
     </div>
   </div>
 
-  <div className="absolute bottom-0 left-0 w-full bg-[var(--gold)] text-black z-20">
-    <div className="max-w-6xl mx-auto px-6 py-3">
+  <div className="absolute bottom-0 left-0 w-full bg-[var(--gold)] text-black font-bold py-3 text-sm tracking-wide">
+    <div className="max-w-6xl mx-auto px-6 flex justify-between">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-2 text-center text-xs md:text-sm font-bold tracking-wide">
         <p>Licensed &amp; Insured</p>
         <p>Fast Turnaround</p>
-        <p>Clean Removal &amp; Reinstall</p>
+        <p>Clean Solar Work</p>
         <p>NW Arkansas &amp; River Valley</p>
       </div>
     </div>
@@ -222,10 +222,10 @@ export default function Page() {
 
           <div className="grid md:grid-cols-3 gap-6 mt-12">
 
-            {[
-  "Showed up on time, handled the removal clean, and everything went back exactly how it should. Solid work.",
-  "Worked directly with our roofer and made the whole process smooth. No issues at all.",
-  "Panels were cleaned and system is running better than before. Would definitely recommend.",
+        {[
+  "Showed up on time, handled the full removal clean, and had everything reinstalled exactly how it was — no issues at all.",
+  "Worked directly with our roofing crew and kept everything moving smoothly. No delays, no confusion.",
+  "Had panels cleaned and checked over, and the system is running better than it has in a long time.",
 ].map((r, i) => (
               <div key={i} className="p-6 border border-white/10">
                 ⭐⭐⭐⭐⭐
@@ -247,7 +247,7 @@ export default function Page() {
       <h2 className="text-5xl">
   Free estimate —
   <span className="block italic text-[var(--gold)]">
-    no pressure
+    no surprises, no guesswork
   </span>
 </h2>
 
