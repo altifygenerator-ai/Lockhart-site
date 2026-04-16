@@ -1,26 +1,48 @@
 @import "tailwindcss";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* PRIMARY (deep solar blue/green tone) */
+  --green: #0b2530;         /* deep solar/navy */
+  --green-soft: #123847;    /* softer section */
+  --green-light: #1a4f63;   /* lighter accent */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* ACCENT */
+  --gold: #f4b400;          /* solar yellow (sun energy vibe) */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* BACKGROUNDS */
+  --cream: #f5f7f9;         /* very light cool gray */
+  --white: #ffffff;
+
+  /* TEXT */
+  --text: #0f1720;          /* darker, cleaner */
+  --muted: #6b7280;
+
+  /* BORDERS */
+  --border: #e5e7eb;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+}
+
+/* reusable section styles */
+.section-light {
+  background: var(--cream);
+}
+
+.section-white {
+  background: var(--white);
+}
+
+.section-dark {
+  background: var(--green);
+  color: white;
+}
+
+.section-accent {
+  background: var(--green-soft);
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
 }
