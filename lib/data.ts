@@ -1,52 +1,46 @@
 export const services = [
   {
-    title: "Solar panel removal",
+    title: "Solar Panel Cleaning",
     items: [
-      "Safe removal for roofing projects",
-      "Organized panel tracking",
-      "Prepared for clean reinstallation"
-    ]
+      "Deep cleaning to remove dirt, debris, and buildup",
+      "Improves efficiency and long-term performance",
+    ],
   },
   {
-    title: "Reinstallation",
+    title: "Critter Guard Installation",
     items: [
-      "Precision panel alignment",
-      "Secure mounting and sealing",
-      "System restored for full performance"
-    ]
+      "Keep rodents and birds out of your system",
+      "Prevent costly wiring and panel damage",
+    ],
   },
   {
-    title: "Panel cleaning",
+    title: "Solar Troubleshooting",
     items: [
-      "Deep cleaning of solar panels",
-      "Remove dirt, debris, and buildup",
-      "Help improve system efficiency"
-    ]
+      "Diagnose system issues and performance drops",
+      "Fix problems before they become expensive repairs",
+    ],
   },
   {
-    title: "Troubleshooting",
+    title: "Panel Removal & Detachment",
     items: [
-      "Diagnose system issues",
-      "Identify performance problems",
-      "Reliable fixes and adjustments"
-    ]
+      "Safe removal for roof repairs or replacement",
+      "Careful handling to protect panels and hardware",
+    ],
   },
   {
-    title: "Critter guard",
+    title: "Waterproofing & Sealing",
     items: [
-      "Install protective barriers",
-      "Keep birds and rodents out",
-      "Prevent wiring and panel damage"
-    ]
+      "Seal mounting points to prevent leaks",
+      "Protect roof integrity during and after work",
+    ],
   },
   {
-    title: "Waterproofing",
+    title: "Solar Reinstallation",
     items: [
-      "Seal all mounting points",
-      "Prevent leaks and roof damage",
-      "Long-term protection"
-    ]
-  }
+      "Precise panel reinstallation after roofing work",
+      "Aligned, secured, and performance-checked",
+    ],
+  },
 ];
 
 export const jobs = [

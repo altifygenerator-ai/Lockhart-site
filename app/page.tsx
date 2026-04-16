@@ -5,7 +5,7 @@ export default function Page() {
     <div>
 
       {/* HERO */}
-      <section className="relative h-[85vh] flex items-center">
+    <section className="relative h-[calc(100vh-80px)] overflow-hidden">
   <div className="absolute inset-0">
     <img
       src="/hero-bg.jpg"
@@ -15,35 +15,44 @@ export default function Page() {
     <div className="absolute inset-0 bg-black/60" />
   </div>
 
-<div className="relative z-10 w-full pl-10 md:pl-16 lg:pl-24 pr-6">
-  <div className="max-w-2xl text-white">
+  <div className="relative z-10 h-full flex items-center">
+    <div className="w-full pl-10 md:pl-16 lg:pl-24 pr-6 pb-16">
+      <div className="max-w-2xl text-white">
+        <h1 className="text-5xl md:text-6xl font-semibold leading-tight text-white">
+          Solar Work Done Right
+          <span className="block text-[var(--gold)] italic">
+            Start to Finish
+          </span>
+        </h1>
 
-    <h1 className="text-5xl md:text-6xl font-semibold leading-tight text-white">
-  Solar Work Done Right
-  <span className="block text-[var(--gold)] italic">
-    Start to Finish
-  </span>
-</h1>
+        <p className="mt-6 text-white/80 max-w-xl">
+          Protect your roof, avoid costly damage, and keep your solar system running the way it should — without delays or guesswork.
+        </p>
 
-    <p className="mt-6 text-white/80">
-      Removal, reinstall, troubleshooting, and protection systems handled
-      with precision to keep your solar running and your roof protected.
-    </p>
+        <div className="mt-8 flex gap-4">
+          <a className="bg-[var(--gold)] text-black px-6 py-3 font-bold">
+            Call Now
+          </a>
 
-    <div className="mt-8 flex gap-4">
-  <a className="bg-[var(--gold)] text-black px-6 py-3 font-bold">
-    Call Now
-  </a>
-
-  <a className="border border-white px-6 py-3 text-white hover:bg-white hover:text-black transition">
-    Get a Quote
-  </a>
-</div>
-
+          <a className="border border-white px-6 py-3 text-white hover:bg-white hover:text-black transition">
+            Get a Quote
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div className="absolute bottom-0 left-0 w-full bg-[var(--gold)] text-black z-20">
+    <div className="max-w-6xl mx-auto px-6 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 text-center text-xs md:text-sm font-bold tracking-wide">
+        <p>Licensed &amp; Insured</p>
+        <p>Fast Turnaround</p>
+        <p>Clean Removal &amp; Reinstall</p>
+        <p>NW Arkansas &amp; River Valley</p>
+      </div>
+    </div>
+  </div>
 </section>
-<section className="py-24 bg-[var(--cream)] border-t border-[var(--border)]"></section>
       {/* ABOUT */}
       <section className="py-24 section-light">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
